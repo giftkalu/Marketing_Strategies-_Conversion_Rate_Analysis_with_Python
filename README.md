@@ -149,7 +149,7 @@ scipy >= 1.7.0
 1. Clone the repository
 
    ```bash
-   git clone <https://github.com/giftkalu/Marketing_Strategies-_Conversion_Rate_Analysis_with_Python.git>
+   git clone https://github.com/giftkalu/Marketing_Strategies-_Conversion_Rate_Analysis_with_Python.git
    ```
 2. Install dependencies
 3. Open notebook
@@ -167,6 +167,11 @@ scipy >= 1.7.0
 * [ ] Extend dataset for **seasonal trend analysis**
 * [ ] Build interactive **dashboard** for stakeholders
 * [ ] Advanced feature engineering techniques
+
+---
+## Full Case Study📑
+
+For full report on this analysis, click 👉[here](https://docs.google.com/document/d/167roNpH01L2mKu511366BbmNIBA9-YdtQax_UMPLo8I)
 
 ---
 
