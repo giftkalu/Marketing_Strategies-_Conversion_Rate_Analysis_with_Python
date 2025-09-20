@@ -69,11 +69,11 @@ The dataset contains **588,101 user records** with the following features:
 
 | Model                    | Accuracy | Precision | Recall |
 | ------------------------ | -------- | --------- | ------ |
-| Logistic Regression      | **82%**  | 0.81      | 0.78   |
-| Decision Tree Classifier | 76%      | 0.74      | 0.71   |
+| Logistic Regression      | **86%**  | 0.12      | 0.69   |
+| Decision Tree Classifier | 82%      | 0.75      | 0.10   |
 
 * **Best Model**: Logistic Regression (robust, interpretable)
-* **Key Predictor**: Total ad exposure
+* **Key Predictor**: Day ads shown(imbalanced)
 * **Learning curve** shows stable performance with enough training data
 
 📊 Example Visualization:
@@ -121,11 +121,11 @@ The dataset contains **588,101 user records** with the following features:
 
 ```
 ├── marketing_AB.csv
-├── Marketing_Strategies_Conversion_Rate_Analysis.ipynb
+├── ONLINE SALES PREDICTION.ipynb
 ├── visualizations/
-│   ├── temporal_analysis_charts.png
-│   ├── ab_test_results.png
-│   └── model_performance_curves.png
+│   ├── ms1.png
+│   ├── ms2.png
+│   └── ms3.png
 └── README.md
 ```
 
@@ -163,7 +163,7 @@ scipy >= 1.7.0
 ## Future Enhancements 🛠️
 
 * [ ] Implement additional ML algorithms (Random Forest, XGBoost)
-* [ ] Develop real-time prediction API
+* [ ] Improved class imbalancement handling
 * [ ] Extend dataset for **seasonal trend analysis**
 * [ ] Build interactive **dashboard** for stakeholders
 * [ ] Advanced feature engineering techniques
